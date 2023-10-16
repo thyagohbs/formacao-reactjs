@@ -1,5 +1,5 @@
 import styles from './Navbar.module.scss';
-import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { ReactComponent as Logo } from 'assets/logo.svg';
 import classNames from 'classnames';
 import {
   RiShoppingCart2Line,
