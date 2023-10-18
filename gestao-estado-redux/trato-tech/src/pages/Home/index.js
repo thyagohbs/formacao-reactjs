@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 export default function Home() {
+
+// teste
   const navigate = useNavigate();
   const categorias = useSelector(state => state.categorias);
   return (
