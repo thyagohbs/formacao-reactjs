@@ -243,6 +243,7 @@ const itensSlice = createSlice({
     },
     mudarItem: (state, { payload }) => {
       const index = state.findIndex(item => item.id === payload.id);
+      // Object.assign = muda apenas o objeto atual
       Object.assign(state[index], payload.item);
     }
   }
