@@ -14,9 +14,10 @@ test('quando o input está vazio, novos participantes não podem ser adicionados
     // encontrar o botão
     const botao = screen.getByRole('button')
 
-    // garantir que o input esteja no documento
+    // garantir que o input esteja no documento(Jest)
     expect(input).toBeInTheDocument()
-    // garantir que o botão esteja desabilitado
+    
+    // garantir que o botão esteja desabilitado(Jest)
     expect(botao).toBeDisabled()
 
 })
